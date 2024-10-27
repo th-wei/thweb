@@ -4,190 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Your Name - Personal Website</title>
-    <style>
-      /* Reset and base styles */
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, sans-serif;
-        line-height: 1.6;
-        color: #333;
-        background-color: #f8f9fa;
-      }
-
-      /* Navigation */
-      nav {
-        background: white;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        padding: 1rem;
-      }
-
-      .nav-container {
-        max-width: 1100px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-
-      .nav-links a {
-        color: #555;
-        text-decoration: none;
-        margin-left: 2rem;
-        transition: color 0.3s;
-      }
-
-      .nav-links a:hover {
-        color: #007bff;
-      }
-
-      /* Sections */
-      section {
-        padding: 4rem 2rem;
-      }
-
-      .container {
-        max-width: 1100px;
-        margin: 0 auto;
-      }
-
-      /* Hero Section */
-      .hero {
-        background: white;
-        text-align: center;
-        padding: 6rem 2rem;
-      }
-
-      .hero h1 {
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
-      }
-
-      .hero p {
-        color: #666;
-        font-size: 1.2rem;
-        margin-bottom: 2rem;
-      }
-
-      /* Social Links */
-      .social-links {
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
-      }
-
-      .social-links a {
-        color: #555;
-        text-decoration: none;
-        padding: 0.5rem;
-        transition: color 0.3s;
-      }
-
-      .social-links a:hover {
-        color: #007bff;
-      }
-
-      /* About Section */
-      .about {
-        background: #f8f9fa;
-      }
-
-      .card {
-        background: white;
-        border-radius: 8px;
-        padding: 2rem;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        margin-bottom: 2rem;
-      }
-
-      .skills-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 2rem;
-        margin-top: 2rem;
-      }
-
-      /* Projects Section */
-      .projects {
-        background: white;
-      }
-
-      .projects-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 2rem;
-        margin-top: 2rem;
-      }
-
-      .project-card {
-        background: #f8f9fa;
-        border-radius: 8px;
-        padding: 1.5rem;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      }
-
-      .project-links {
-        margin-top: 1rem;
-      }
-
-      .project-links a {
-        color: #007bff;
-        text-decoration: none;
-        margin-right: 1rem;
-      }
-
-      .project-links a:hover {
-        text-decoration: underline;
-      }
-
-      /* Contact Section */
-      .contact {
-        background: #f8f9fa;
-      }
-
-      .button {
-        display: inline-block;
-        background: #007bff;
-        color: white;
-        padding: 0.8rem 2rem;
-        border-radius: 4px;
-        text-decoration: none;
-        transition: background-color 0.3s;
-      }
-
-      .button:hover {
-        background: #0056b3;
-      }
-
-      /* Footer */
-      footer {
-        background: white;
-        text-align: center;
-        padding: 2rem;
-        color: #666;
-      }
-
-      /* Responsive Design */
-      @media (max-width: 768px) {
-        .nav-container {
-          flex-direction: column;
-          gap: 1rem;
-        }
-
-        .nav-links a {
-          margin: 0 1rem;
-        }
-
-        .hero h1 {
-          font-size: 2rem;
-        }
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
     <!-- Navigation -->
@@ -203,10 +20,12 @@
     </nav>
 
     <!-- Hero Section -->
+    <video src="video.mp4" muted autoplay loop></video>
+
     <section class="hero">
       <div class="container">
         <h1>Hello, I'm TH Wei</h1>
-        <p>Studetn Athlete, Engineer, Aspiring Business Leader</p>
+        <p>Student Athlete, Engineer, Aspiring Business Leader</p>
         <div class="social-links">
           <a href="https://github.com" target="_blank" title="GitHub">
             <svg
@@ -223,7 +42,7 @@
             </svg>
           </a>
           <a
-            href="https//linkedin.com/in/thwei"
+            href="https://linkedin.com/in/thwei"
             target="_blank"
             title="LinkedIn"
           >
@@ -242,7 +61,7 @@
               <circle cx="4" cy="4" r="2"></circle>
             </svg>
           </a>
-          <a href="thwei@umich.edu" title="Email">
+          <a href="mailto: thwei@umich.edu" title="Email">
             <svg
               width="24"
               height="24"
